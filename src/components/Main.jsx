@@ -1,9 +1,14 @@
+import Home from './main/Home'
 import About from './main/About'
 import Projects from './main/Projects'
 import Contact from './main/Contact'
+import { ImOpera } from 'react-icons/im'
 function Main() {
     return (
         <div>
+            <section id="home">
+                <Home />
+            </section>
             <section id="about">
                 <About />
             </section>
