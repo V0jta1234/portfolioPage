@@ -6,12 +6,12 @@ import { SiMysql } from "react-icons/si";
 
 function Vonavky() {
     return (
-        <div className="border-2 rounded-lg px-3 py-0.5 w-sm h-sm">
+        <a className="border-2 rounded-lg px-3 py-0.5 w-sm h-sm" href="https://bastlv.wz.cz/projekty/vonavky/">
             <h1 className="text-xl">Fragnance reviews</h1>{/*Jméno projektu*/}
             <h2 className="text-lg">CZ</h2>{/*Jazyky*/}
             <div className="text-3xl inline-flex"><FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaPhp /> <SiMysql /></div>{/*Použité technologie*/}
             <p>Here are my reviews of parfums.</p>{/*Popis projektu*/}
-        </div>
+        </a>
     )
 }
 

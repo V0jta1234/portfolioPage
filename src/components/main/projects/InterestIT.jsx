@@ -4,7 +4,7 @@ import { SiArduino } from "react-icons/si";
 
 function InterestIT() {
     return (
-        <a className="border-2 rounded-lg px-3 py-0.5 w-sm h-sm" onclick="https://bastlv.wz.cz/projekty/Arduino/zajemMainPage.html">
+        <a className="border-2 rounded-lg px-3 py-0.5 w-sm h-sm" href="https://bastlv.wz.cz/projekty/Arduino/zajemMainPage.html">
             <h1 className="text-xl">Interest in IT</h1>{/*Jméno projektu*/}
             <h2 className="text-lg">CZ</h2>{/*Jazyky*/}
             <div className="text-4xl inline-flex gap-1"><FaHtml5 /> <FaCss3Alt /> <SiArduino /></div>{/*Použité technologie*/}
