@@ -1,0 +1,12 @@
+function /*název funkce*/() {
+    return (
+        <div className="border-2 rounded-lg px-3 py-0.5 w-sm h-sm">
+            <h1 className="text-xl"></h1>{/*Jméno projektu*/}
+            <h2 className="text-lg"></h2>{/*Jazyky*/}
+            <div className="text-4xl inline-flex gap-1"></div>{/*Použité technologie*/}
+            <p></p>{/*Popis projektu*/}
+        </div>
+    )
+}
+
+export default /*název funkce*/
